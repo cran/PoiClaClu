@@ -9,8 +9,8 @@ CountDataSet <- function(n,p,K,param,sdsignal){
   }
   truesf <- runif(n)*2+.2 #size factors for training observations
   truesfte <- runif(n)*2+.2 #size factors for test observations
-  conds <- sample(c(rep(1:K, 4), sample(1:K, n-4*K, rep=TRUE))) # class labels for training observations
-  condste <- sample(c(rep(1:K, 4), sample(1:K, n-4*K, rep=TRUE))) # class labels for test observations
+  conds <- sample(c(rep(1:K, 4), sample(1:K, n-4*K, replace=TRUE))) # class labels for training observations
+  condste <- sample(c(rep(1:K, 4), sample(1:K, n-4*K, replace=TRUE))) # class labels for test observations
   x <- xte <- matrix(NA, nrow=n, ncol=p)
   for(i in 1:n){
     for(k in 1:K){
