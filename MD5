@@ -1,4 +1,4 @@
-d728a576502b6a77d718e121ecc775c1 *DESCRIPTION
+e299aeaab30e495a6e2fe84075d6f412 *DESCRIPTION
 9ce2bb52507cf5f34b102f7c21086691 *NAMESPACE
 5e0e458bc42bd6cf044978e25a81ae6c *R/Classify.R
 297d2a443e9d8d5ebe3c09c76282249e *R/Classify.cv.R
@@ -10,9 +10,9 @@ c994f09d2c6e74dabf1ef10c80c924f3 *R/NullModel.R
 d9db5303dbfaafe95b2ff07ff49e279f *R/PoissonDistance.R
 efc85c1542cbfa1ee65b7c0e9985cc37 *man/Classify.Rd
 134608f1ed0eb0dbf5f79d30cd019747 *man/Classify.cv.Rd
-73af74b02a276c40d9587d6ccbb6cb30 *man/ColorDendrogram.Rd
+f293aeceaaf84d5c70905db913f95560 *man/ColorDendrogram.Rd
 3e980af22338d9b84b24b592250a9371 *man/CountDataSet.Rd
 c4ad640fdebb52e7d310dc3ac845a79a *man/FindBestTransform.Rd
 e070d331cc52fe007735f98d1552bfce *man/PoiClaClu-internal.Rd
-f1bea47af52ede951aa62170df282cab *man/PoiClaClu-package.Rd
+8db4e658c4d614c526cb127ea453bade *man/PoiClaClu-package.Rd
 350af97427bcc4a442b6b5db7574a1e6 *man/PoissonDistance.Rd

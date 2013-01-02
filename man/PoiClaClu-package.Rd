@@ -16,7 +16,7 @@ Classification and clustering of RNA sequencing data using a Poisson model
 \tabular{ll}{
 Package: \tab PoiClaClu\cr
 Type: \tab Package\cr
-Version: \tab 1.0.1\cr
+Version: \tab 1.0.2\cr
 Date: \tab 2013-01-02\cr
 License: \tab GPL-2 \cr
 LazyLoad: \tab yes\cr
@@ -26,7 +26,7 @@ LazyLoad: \tab yes\cr
 \author{
 Daniela Witten
 
-Maintainer: Daniela Witten, <dwitten@u.washington.edu>
+Maintainer: Daniela Witten <dwitten@u.washington.edu>
 }
 \references{
   D. Witten (2011) Classification and clustering of sequencing data
