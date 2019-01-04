@@ -1,1 +1,13 @@
-export(Classify,Classify.cv,PoissonDistance,FindBestTransform,CountDataSet,ColorDendrogram,NullModel,NullModelTest,print.poicla, print.poiclacv, print.poidist)
+export(Classify, Classify.cv,
+       PoissonDistance, FindBestTransform, CountDataSet,
+       ColorDendrogram, NullModel, NullModelTest,
+       print.poicla, print.poiclacv, print.poidist)
+
+S3method(print, poicla)
+S3method(print, poiclacv)
+S3method(print, poidist)
+
+importFrom("graphics", "plot", "segments")
+importFrom("stats", "as.dist", "median", "quantile", "rexp", "rnbinom",
+           "rnorm", "runif", "sd")
+importFrom("utils", "write.table")
